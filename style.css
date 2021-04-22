@@ -1,0 +1,35 @@
+.nav{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    background-color:rgb(68, 69, 70);       
+    color: white;
+    font-family:sans-serif;
+    padding: 3px;
+}
+.nav-links{
+    font-family: 'Times New Roman', Times, serif;
+    display:flex;
+    align-items: center;
+}
+.nav-title{
+    margin:0px;
+}
+.active{
+    text-decoration: none;
+}
+ul li{
+    list-style-type: none;
+    text-decoration-line: none;
+    margin-right:20px;
+}
+Li a{
+color:white;
+font-weight:lighter;
+}
+.btn{
+    color:white;
+    background-color:rgb(17, 202, 187);
+    padding:2px;
+    box-shadow: 5px;
+}
